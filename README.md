@@ -1,50 +1,61 @@
-# Welcome to your Expo app 👋
+# 💸 Money Share Calculator
+### แอปพลิเคชันคำนวณเงินหารกัน (สไตล์มินิมอล ใช้งานง่าย) 📊
+**Web Application developed with Next.js & Tailwind CSS**
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+ยินดีต้อนรับสู่โปรเจกต์ **Money Share Calculator** ตัวช่วยที่จะทำให้การหารค่าใช้จ่ายในกลุ่มเพื่อนหรือครอบครัวเป็นเรื่องง่าย รวดเร็ว และแม่นยำ หมดปัญหาการคิดเลขผิดหรือปวดหัวตอนเช็คบิล เพียงกรอกยอดรวมและจำนวนคน แอปพลิเคชันจะจัดการคำนวณให้ทันที!
 
-## Get started
+---
 
-1. Install dependencies
+## ✨ คุณสมบัติหลัก (Features)
+* **💸 Quick Calculate:** คำนวณยอดเงินที่แต่ละคนต้องจ่ายได้อย่างแม่นยำและรวดเร็ว
+* **🛡️ Input Validation:** มีระบบตรวจสอบความถูกต้องของข้อมูล (ป้องกันการกรอกค่าติดลบ หรือค่าว่าง)
+* **🔄 Reset Function:** ปุ่มล้างข้อมูลเพื่อเริ่มคำนวณใหม่ได้ทันทีโดยไม่ต้องรีเฟรชหน้าเว็บ
+* **🎨 Clean & Modern UI:** อินเทอร์เฟซสะอาดตา ทันสมัย ออกแบบด้วย Tailwind CSS
+* **📱 Responsive Design:** รองรับการแสดงผลทุกขนาดหน้าจอ ทั้งมือถือ แท็บเล็ต และคอมพิวเตอร์
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## 💻 ภาพหน้าจอเว็บแอปพลิเคชัน (Screenshots)
 
-   ```bash
-   npx expo start
-   ```
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/74672c13-bfd9-4269-b7e4-d8650a3a8603" width="250" style="margin: 10px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</div>
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🛠 เทคโนโลยีที่ใช้ (Tech Stack)
+* **Framework:** [Next.js](https://nextjs.org/) (React)
+* **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+* **Language:** TypeScript / JavaScript
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 🚀 การติดตั้งและใช้งาน (Setup & Installation)
 
-When you're ready, run:
+1.  **Clone โปรเจกต์:**
+    ```bash
+    git clone [https://github.com/ช](https://github.com/ช)ื่อผู้ใช้ของคุณ/ชื่อโปรเจกต์.git
+    cd ชื่อโปรเจกต์
+    ```
+    *(ตรวจสอบและเปลี่ยน URL ของ Repository ให้ตรงกับชื่อ Repository ของคุณ)*
 
-```bash
-npm run reset-project
-```
+2.  **ติดตั้ง Dependencies:**
+    ```bash
+    npm install
+    # หรือ yarn install / pnpm install
+    ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+3.  **รันแอปพลิเคชัน:**
+    ```bash
+    npm run dev
+    # หรือ yarn dev / pnpm dev
+    ```
+    *จากนั้นเปิดเบราว์เซอร์และเข้าไปที่ **http://localhost:3000** เพื่อเริ่มใช้งาน*
 
-## Learn more
+---
 
-To learn more about developing your project with Expo, look at the following resources:
+## 👤 ผู้พัฒนา (Developer)
+**Developed by [Kanyada DTI SAU TEAM](https://github.com/KanyadaSupan)**
+*Southeast Asia University | Digital Technology and Innovation*
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
